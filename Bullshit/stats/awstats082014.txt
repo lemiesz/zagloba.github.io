@@ -1,0 +1,592 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2540                
+POS_VISITOR 10383               
+POS_DAY 17568               
+POS_DOMAIN 3405                
+POS_LOGIN 3638                
+POS_ROBOT 3793                
+POS_WORMS 4437                
+POS_EMAILSENDER 4568                
+POS_EMAILRECEIVER 4711                
+POS_SESSION 18227               
+POS_SIDER 18419               
+POS_FILETYPES 4846                
+POS_OS 5088                
+POS_BROWSER 5239                
+POS_SCREENSIZE 5585                
+POS_UNKNOWNREFERER 5659                
+POS_UNKNOWNREFERERBROWSER 6311                
+POS_ORIGIN 6871                
+POS_SEREFERRALS 7014                
+POS_PAGEREFS 7195                
+POS_SEARCHWORDS 8533                
+POS_KEYWORDS 8818                
+POS_MISC 2204                
+POS_ERRORS 8972                
+POS_CLUSTER 3494                
+POS_SIDER_404 9114                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140823025818 6407 1397553 0
+FirstTime 20140801014859
+LastTime 20140823005058
+LastUpdate 20140823035031 6407 6078 329 0 0
+TotalVisits 194                 
+TotalUnique 157                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 185                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 119 22239709 29 30 967345
+1 9 47 1881514 32 48 1164616
+2 8 57 3206629 38 61 1423972
+3 11 94 4432573 26 32 430480
+4 21 105 4373773 18 20 186499
+5 5 61 2623379 28 33 558678
+6 11 96 3264414 23 39 793959
+7 9 98 4637652 17 42 719731
+8 9 94 5078695 14 23 385222
+9 21 120 10832766 22 24 266587
+10 9 35 1332087 83 141 1372067
+11 15 92 2369260 18 24 538007
+12 15 117 5540888 73 163 2682898
+13 31 247 10807383 27 37 285764
+14 28 165 13972138 25 29 284172
+15 13 84 9568484 390 393 497192
+16 43 210 15726114 141 378 5660695
+17 27 160 6706688 34 87 1260225
+18 15 101 11352567 21 24 700004
+19 42 331 20036446 58 63 325081
+20 17 122 9499311 14 16 567481
+21 16 172 8606528 26 28 234783
+22 24 159 17487084 37 44 380094
+23 23 164 6712545 25 29 390234
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 450 3050 202288627
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+spider 374 6182264 20140822165740 0
+crawl 179 2542677 20140813120803 0
+googlebot 131 3856999 20140822123221 0
+bot[+:,\.\;\/\\-] 103 1841436 20140823025818 0
+yandex 36 1692747 20140822124617 0
+robot 26 383614 20140821133852 0
+baiduspider 22 516136 20140823024452 0
+no_user_agent 11 168556 20140822171141 0
+slurp 9 271826 20140822023450 0
+msnbot\-media 8 1215985 20140818060254 0
+exabot 3 121773 20140807054331 0
+surveybot 2 31996 20140821165118 0
+mail\.ru 1 15998 20140801181450 0
+nutch 1 15998 20140806165100 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 434 6136872 0 0
+png 455 92754518 0 0
+ico 32 26272 0 0
+ttf 81 983664 0 0
+pdf 3 269331 0 0
+html 366 5844182 0 0
+js 1258 23578052 0 0
+jpg 401 70785906 0 0
+jpeg 10 1831490 0 0
+gif 10 78340 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 57
+winxp 363
+winnt 2
+linuxubuntu 2
+winvista 199
+linux 185
+macosx 521
+win2003 1
+Unknown 66
+win2008 1654
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 22
+firefox28.0 51
+msie6.0 4
+firefox20.0 2
+chrome 1799
+firefox26.0 3
+firefox21.0 6
+firefox18.0 1
+firefox29.0 31
+firefox30.0 1
+firefox31.0 72
+msie8.0 314
+firefox1.0.7 1
+mozilla 66
+firefox14.0.1 7
+firefox22.0 3
+msie10.0 29
+firefox23.0 1
+firefox3.6.3 1
+firefox3.6.9 1
+msie9.0 148
+Unknown 55
+safari 454
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+\ 20140817024941
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20140819035947
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140801104704
+WebIndex 20140807225101
+Mechanize/2.7.2_Ruby/1.9.3p547_(http://github.com/sparklemotion/mechanize/) 20140816193536
+panscient.com 20140802194852
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20140815223459
+WhatWeb/0.4.8-dev 20140821011718
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140811005857
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+\ 20140817024941
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20140815223459
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140801104704
+WhatWeb/0.4.8-dev 20140821011718
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140811005857
+WebIndex 20140807225101
+Mechanize/2.7.2_Ruby/1.9.3p547_(http://github.com/sparklemotion/mechanize/) 20140816193536
+panscient.com 20140802194852
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 99 174
+From1 0 0
+From2 86 132
+From3 39 39
+From4 226 2705
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 54 100
+yandex 31 31
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 29
+http://semalt.semalt.com/crawler.php 6 6
+http://www.bing.com/search 3 3
+http://1.semalt.com/crawler.php 2 2
+http://87.semalt.com/crawler.php 2 2
+http://www.reeec.illinois.edu/students/organizations/ 2 2
+http://68.semalt.com/crawler.php 1 1
+http://4.semalt.com/crawler.php 1 1
+http://77.semalt.com/crawler.php 1 1
+http://73.semalt.com/crawler.php 1 1
+http://83.semalt.com/crawler.php 1 1
+http://42.semalt.com/crawler.php 1 1
+https://www.facebook.com 1 1
+http://22.semalt.com/crawler.php 1 1
+http://50.semalt.com/crawler.php 1 1
+http://89.semalt.com/crawler.php 1 1
+http://16.semalt.com/crawler.php 1 1
+http://27.semalt.com/crawler.php 1 1
+http://79.semalt.com/crawler.php 1 1
+http://pal-pac.org/resources-links/list-of-polish-american-clubs-polish-student-university-clubs-and-other-polish-american-organizations 1 1
+http://24.semalt.com/crawler.php 1 1
+http://32.semalt.com/crawler.php 1 1
+http://13.semalt.com/crawler.php 1 1
+http://95.semalt.com/crawler.php 1 1
+http://23.semalt.com/crawler.php 1 1
+http://78.semalt.com/crawler.php 1 1
+http://93.semalt.com/crawler.php 1 1
+http://www.domaintuno.com/d/uofizagloba.com 1 1
+http://84.semalt.com/crawler.php 1 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+zagoba 31
+uiuc+polish+barn+dance 1
+u+of+i+barn+dance 1
+barn+dances+u+of+i 1
+polish+club+barn+dance+uiuc 1
+polish+deli+champaign+il 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 13
+zagoba 31
+barn 4
+polish 3
+dance 3
+uiuc 2
+of 2
+u 2
+i 2
+il 1
+deli 1
+dances 1
+club 1
+champaign 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 13 2743
+206 52 2603157
+406 42 10979
+407 23 9545
+404 772 591357
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 32
+/apple-touch-icon-precomposed.png 3 -
+/get-style-property/get-style-property 1 -
+/th1s_1s_a_4o4.html 22 http://www.google.com/url
+/robots.txt 146 -
+/apple-touch-icon.png 2 -
+/admin.php 1 -
+/item 1 -
+/administrator/index.php 1 -
+/www.youtube.com/embed/t1aZ0oHFRD8 1 -
+/eventEmitter/EventEmitter 1 -
+/style/js/text/html 1 -
+/g,mt=RegExp( 1 -
+/).length,t.style=/top/.test(r.getAttribute( 1 -
+/contact.html 3 -
+/eventie/eventie 2 -
+/style/websymbols/websymbols-regular-webfont.woff 148 http://uofizagloba.com/
+/doc-ready/doc-ready 2 -
+/outlayer/outlayer 1 -
+/wp-content/uploads/ftp.php 1 -
+/undefined 372 http://uofizagloba.com/
+/style/js/text/xml 1 -
+/home.html 2 -
+/get-size/get-size 1 -
+/blog/wp-login.php 1 -
+/text/xml 1 -
+/a 2 -
+/browserconfig.xml 1 -
+/wp-login.php 5 -
+/style/js/).length,t.style=/top/.test(r.getAttribute( 1 -
+/text/html 2 -
+/style/websymbols/websymbols-regular-webfont.eot 43 http://uofizagloba.com/
+/matches-selector/matches-selector 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 185
+188.32.65.17 17 254 9856052 20140820134135
+198.211.110.246 14 40 672832 20140818040010
+108.163.224.130 9 27 364266 20140822165734
+108.194.242.240 8 69 4629127 20140821131922
+24.7.214.214 8 50 3694667 20140809162926
+162.243.170.57 7 20 336416 20140814160654
+128.174.93.61 7 11 6071695 20140821142404
+98.215.2.115 7 49 3604890 20140822200902
+198.199.65.166 7 20 336416 20140822171152
+192.81.210.204 7 20 336416 20140811092915
+199.30.24.221 1 5 231493 20140806084156
+168.8.249.15 3 24 1181804 20140807121704
+157.55.39.195 0 1 2135 
+69.58.178.56 6 6 93620 20140811005902
+65.55.107.150 2 28 2671913 20140817024941
+37.146.115.113 3 31 500766 20140806225318
+50.13.26.96 3 21 1176347 20140822233932
+189.41.37.173 3 24 1181804 20140822191437
+54.164.61.198 1 1 89777 20140819040215
+54.164.85.39 1 2 11066 20140819044728
+189.105.197.165 3 24 1181804 20140811190625
+54.88.218.224 1 1 15998 20140819041834
+54.88.79.237 0 1 308781 
+54.164.109.72 0 1 67289 
+172.56.11.32 1 9 199368 20140816135509
+5.164.90.108 1 17 503776 20140807225100
+54.164.112.28 0 1 821 
+172.246.129.194 1 1 23221 20140806190526
+95.28.241.99 2 18 305016 20140808112559
+54.164.35.2 1 1 15998 20140816201609
+67.167.193.203 4 25 1197802 20140807232114
+207.46.13.14 0 2 9148 
+54.164.119.163 0 1 39777 
+128.68.122.190 2 27 1214425 20140811105514
+152.246.178.98 3 23 1088693 20140801195831
+166.147.104.33 3 24 1181804 20140817205936
+54.88.216.88 0 1 7483 
+192.5.215.219 4 29 1398794 20140810213849
+93.80.128.20 2 44 2307324 20140821210537
+108.160.194.49 4 43 3356725 20140817082117
+157.55.39.160 0 1 93111 
+54.88.174.168 0 1 99456 
+5.228.19.159 5 86 2458519 20140807193214
+23.23.222.104 1 1 15998 20140803135450
+23.88.110.250 1 1 23221 20140808141819
+111.197.239.250 1 1 15998 20140821011718
+50.151.82.235 4 27 6950938 20140820004556
+186.29.166.4 3 24 1181804 20140801180031
+95.220.161.193 2 29 528341 20140809192647
+173.230.26.207 3 24 1181252 20140817215806
+178.137.162.135 2 2 24574 20140822061112
+173.18.224.243 2 23 1165806 20140812212624
+54.164.64.216 1 1 15998 20140815204858
+83.61.203.38 3 24 1181804 20140802145428
+172.56.21.45 3 25 1182625 20140816151908
+174.238.193.135 2 24 6920290 20140817094258
+150.70.97.113 1 1 23221 20140818011847
+178.32.148.198 1 1 15998 20140823005058
+186.47.189.186 3 24 1181804 20140819220820
+98.212.154.195 3 25 1182625 20140821142153
+177.0.106.100 3 24 1181804 20140816171141
+186.167.243.253 3 24 1181804 20140804232645
+172.56.12.172 3 25 1182625 20140817221149
+50.179.192.2 4 29 1398794 20140807210956
+54.164.88.236 1 1 15998 20140819035654
+62.210.122.123 1 1 15998 20140817054523
+94.242.222.44 1 1 13829 20140805041751
+201.139.109.6 1 1 15998 20140821122620
+54.164.135.28 0 1 107140 
+157.55.39.189 0 1 4574 
+92.36.157.53 3 24 1181804 20140801145101
+128.174.83.104 6 31 1430790 20140812125636
+98.212.153.157 6 8 5856899 20140822222520
+37.112.167.107 2 46 2307382 20140806171552
+166.137.101.159 2 29 2672734 20140808201236
+92.242.35.54 4 4 63992 20140807225101
+70.194.141.68 2 18 6225824 20140810183740
+50.129.99.102 4 29 1398794 20140819153232
+67.162.92.171 3 25 1182625 20140820131901
+54.88.198.58 0 1 6416 
+96.242.31.228 5 17 276750 20140802194843
+54.164.123.8 0 1 828 
+207.46.13.104 0 1 42818 
+162.198.118.3 3 24 1181252 20140812002352
+54.88.205.162 1 1 15998 20140814184115
+71.205.40.26 3 23 1177673 20140819140415
+54.84.115.215 0 1 42818 
+172.245.136.250 2 2 29827 20140819023316
+54.164.71.206 0 1 309522 
+208.43.225.84 1 1 15998 20140809110214
+177.188.162.90 3 24 1181804 20140803195803
+67.167.3.243 3 5 5801130 20140819150848
+37.145.98.35 2 19 398127 20140813065321
+162.223.8.26 4 4 59654 20140813062951
+122.55.74.103 2 23 1165806 20140818230305
+155.94.133.133 4 4 59654 20140803204120
+80.174.255.170 3 24 1181804 20140807130334
+103.228.40.196 2 23 1165806 20140809043345
+162.238.123.21 2 29 2672734 20140820165357
+157.55.39.63 0 3 7272 
+54.243.8.109 3 24 1181804 20140816193538
+41.110.208.146 3 24 1181804 20140811180458
+95.25.254.194 2 44 2307324 20140821060034
+24.13.143.138 3 24 1181804 20140804222941
+50.57.190.113 1 1 23221 20140814183439
+128.72.3.226 2 16 300057 20140802052032
+54.164.1.12 0 1 4439 
+5.10.104.70 4 4 61624 20140813001657
+157.55.39.169 0 1 93111 
+5.23.219.250 3 25 1182625 20140803093755
+39.32.161.38 2 29 2672734 20140814183453
+91.121.92.177 2 2 31996 20140818143840
+173.236.59.218 3 9 121422 20140820165451
+46.229.170.197 1 1 15998 20140805092636
+187.16.132.167 2 23 1165806 20140822124214
+123.125.244.217 1 1 15998 20140801175405
+70.194.102.70 3 24 1181804 20140812135423
+50.57.190.90 1 1 15998 20140814183441
+107.178.200.38 0 1 821 
+200.161.172.76 3 24 1181804 20140813115044
+81.108.139.110 3 24 1181252 20140803132754
+70.194.99.185 0 1 309522 
+176.212.156.155 2 27 525310 20140805133001
+5.10.104.69 1 1 15998 20140812031728
+198.211.104.210 7 20 336416 20140801194236
+128.174.93.77 1 1 15998 20140822132712
+87.0.96.103 2 23 1165806 20140806085301
+82.6.104.32 3 24 1181804 20140811074300
+189.47.182.108 2 23 1165806 20140805093743
+151.72.250.95 2 2 31996 20140817114532
+198.199.71.16 7 20 336416 20140804234600
+176.14.0.58 1 5 153845 20140807143234
+198.175.127.47 2 2 29827 20140817092821
+99.7.3.195 4 27 6950938 20140814001706
+108.234.216.175 3 25 1182625 20140816140001
+54.88.203.96 1 1 23221 20140819043851
+201.2.76.123 3 24 1181804 20140822230115
+74.11.66.199 4 26 6949565 20140804164421
+192.17.226.193 4 27 6950938 20140821003321
+107.140.113.136 3 24 1181804 20140807093212
+179.219.48.249 3 24 1181804 20140819121244
+27.150.229.79 1 1 15998 20140802183835
+157.55.39.106 0 1 6416 
+54.164.98.93 1 1 13829 20140819040802
+76.224.236.13 2 19 628495 20140805011044
+179.185.15.146 1 1 15998 20140816195459
+95.28.235.151 2 28 488564 20140822062454
+69.171.247.119 0 1 67289 
+186.52.108.215 2 23 1165806 20140816202530
+54.85.212.246 0 1 93111 
+93.80.138.160 1 7 183909 20140810132446
+150.70.97.121 1 1 15998 20140818011720
+67.212.188.154 2 6 80948 20140821170516
+192.157.250.98 1 1 23221 20140808101628
+176.14.48.209 1 6 160261 20140804162102
+198.44.66.98 1 1 15998 20140805134052
+37.112.164.121 4 64 2613486 20140801193837
+23.22.53.233 1 1 15998 20140814063703
+130.126.212.211 3 21 2206917 20140822201817
+107.178.200.44 1 1 15998 20140801104704
+207.244.73.5 1 1 0 20140821094558
+23.95.27.117 3 16 272424 20140822072004
+185.2.154.88 1 1 15998 20140816011954
+70.162.179.167 4 29 1398794 20140805172109
+204.44.92.107 1 1 13829 20140818024133
+5.187.78.44 3 24 1181804 20140813143436
+54.88.152.115 0 1 8097 
+5.10.104.68 5 5 77622 20140814102451
+184.154.164.186 1 3 40474 20140807164959
+37.145.98.66 2 40 2060042 20140817042656
+185.10.140.139 3 24 1181804 20140809030922
+54.88.195.188 0 5 20655 
+162.220.58.244 1 4 60734 20140801022839
+88.198.17.4 1 1 15998 20140818161944
+54.164.62.255 0 4 12752 
+179.159.57.152 3 24 1181804 20140814150601
+98.228.217.74 4 26 6950117 20140811221337
+184.154.196.90 7 21 283318 20140817165838
+187.13.248.89 2 23 1165806 20140808160041
+37.110.155.185 1 1 15998 20140810114304
+76.221.95.166 3 38 8710267 20140812192925
+67.173.93.9 2 23 1165806 20140814231002
+187.54.163.80 3 24 1181804 20140805133502
+98.253.56.241 0 1 309522 
+208.43.245.245 1 1 15998 20140819035947
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20140801 29 220 8308855 12
+20140802 14 63 1844910 6
+20140803 13 79 3631980 6
+20140804 21 118 10742422 8
+20140805 18 129 5002506 10
+20140806 12 113 4612795 7
+20140807 20 158 6203466 10
+20140808 17 110 5147572 8
+20140809 23 158 7929319 8
+20140810 9 58 7864999 5
+20140811 29 155 12185038 8
+20140812 19 145 13769209 7
+20140813 18 99 3313564 7
+20140814 27 134 12481011 11
+20140815 6 78 2959426 4
+20140816 23 195 8750104 12
+20140817 25 216 18672946 11
+20140818 17 73 2058066 9
+20140819 29 207 15587764 16
+20140820 11 98 11091053 5
+20140821 26 201 22558623 10
+20140822 43 242 17557001 13
+20140823 1 1 15998 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 176
+2mn-5mn 2
+30s-2mn 14
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 305 4863392 168 139
+/style/websymbols/websymbols-regular-webfont.ttf 81 983664 5 14
+/barndance.html 23 318067 5 17
+/events.html 23 534083 11 13
+/about.html 15 128640 3 9
+/style/scholarship/Zagloba_Scholarship.pdf 3 269331 2 2
+END_SIDER
